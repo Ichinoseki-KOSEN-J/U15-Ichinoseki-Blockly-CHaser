@@ -49,7 +49,7 @@
 
 .stage_div {
     position: relative;
-    margin: 10px 8px;
+    margin: 0;
     width: 160px;
     height: 60px;
     background: #5d5d5d;
@@ -382,10 +382,9 @@ td img {
 }
 
 .stage_row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 160px);
     justify-content: center;
+    gap: 20px 22px;
+    margin-bottom: 18px;
 }
